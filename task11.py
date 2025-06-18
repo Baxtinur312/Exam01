@@ -1,5 +1,6 @@
 matn = input()
-new = matn.replacekmhg(" ", "")
-print(new)
+new = matn.replace(" ", "")
+new1 = new.title()
+print(new1)
 
 
